@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  background-color: #b02727;
+  color: aliceblue;
+  margin: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #8c1c1c;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  font-size: 19px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 199, 126);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Section */
+#About {
+  margin: 40px auto;
+  max-width: 80%;
+}
+
+#About img {
+  max-width: 350px;
+  border-radius: 10%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#About p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* Aktivitas Terkini */
+aside {
+  background-color: #661414;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  background-color: #8c1c1c;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #8c1c1c;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: rgb(255, 181, 181);
+  text-decoration: none;
+  font-weight: bold;
+}
